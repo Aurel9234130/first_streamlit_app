@@ -52,4 +52,7 @@ streamlit.header("The fruit load list contains")
 #streamlit.dataframe(my_data_row)
 streamlit.dataframe(my_data_rows)
 
+#New Section to display another fruityvice api response
+fruit_choice_add = streamlit.text_input('What fruit would you like to add?','Jackfruit')
+streamlit.text('Thanks for adding ', fruit_choice_add)
    
